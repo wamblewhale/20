@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мое адаптивное портфолио</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в мое портфолио</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Обо мне</a></li>
+                <li><a href="#">Работы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Обо мне</h2>
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Фото профиля">
+            </div>
+            <div class="bio">
+                <p>Меня зовут Иван, я начинающий веб-разработчик. Увлекаюсь созданием современных и адаптивных сайтов. Постоянно изучаю новые технологии и стараюсь применять их в своих проектах.</p>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h2>Мои работы</h2>
+            <div class="project-container">
+                <div class="project">
+                    <img src="project1.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание первого проекта</p>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Проект 2">
+                    <h3>Проект 2</h3>
+                    <p>Описание второго проекта</p>
+                </div>
+                <div class="project">
+                    <img src="project3.jpg" alt="Проект 3">
+                    <h3>Проект 3</h3>
+                    <p>Описание третьего проекта</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Связаться со мной</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Мое адаптивное портфолио. Все права защищены.</p>
+    </footer>
+</body>
+</html>
